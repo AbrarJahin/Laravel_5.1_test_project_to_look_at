@@ -1,0 +1,104 @@
+/**
+ *
+ * Apply your custom CSS here
+ *
+*/
+
+body
+{	
+}
+
+a
+{
+}
+
+.all_questions_scroll
+{
+    max-height:540px;
+    overflow-y:auto;
+}
+
+.sidebar-menu
+{
+    display: table-cell;
+    position: relative;
+    width: 260px;
+    background: #2c2e2f;
+    z-index: 1;
+}
+
+
+/* CSS for Datatables - Start*/
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th
+{
+    font-size: 1em;
+    border: 1px solid #BAB2B3;
+    padding: 3px 7px 2px 7px;
+}
+
+th
+{
+    font-size: 1.1em;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background-color: #A7C942;
+    color: #ffffff;
+}
+
+tr:nth-child(even)
+{
+    color: #000000;
+    background-color: #EAF2D3;
+}
+
+th,td
+{
+    text-align: center;
+}
+
+th:first-child,td:first-child
+{
+    text-align: left;
+}
+/* CSS for Datatables - End*/
+
+
+.sidebar-menu .main-menu ul li a
+{
+    padding-left: 20px;
+}
+
+.badge.pull-right
+{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+/* Solving Datepicker Blink Issue */
+.datepicker
+{
+    z-index:1151 !important;
+}
+
+/* Fixing issues in table "/users/3/webinars" */
+#bacground_fix
+{
+    font-size: 1.1em;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background-color: #A7C942;
+    color: #ffffff;
+}
+
+li.selected
+{
+    background-color: #adadad;
+}

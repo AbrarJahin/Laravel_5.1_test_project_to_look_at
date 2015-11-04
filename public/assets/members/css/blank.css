@@ -1,0 +1,659 @@
+html {
+	background-color: #000;
+}
+strong.lime {color: #acc125;}
+strong.plum {color: #c16b8a;}
+strong.blue {color: #87c3da;}
+strong.yellow {color: #fdd23c;}
+strong.salmon {color: #fd7f7d;}
+
+
+.main {
+	width: 100%;
+	position: relative;
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+	margin-top: 0px;
+	padding-top: 1px; 
+	padding-bottom: 0;
+	
+	background-color: #fd7f7d;
+	background-image: -webkit-gradient(linear, left top, right bottom, from(rgb(253, 127, 125)), to(rgb(251, 105, 100)));
+	background-image: -webkit-linear-gradient(left top, rgb(253, 127, 125), rgb(251, 105, 100));
+	background-image: -moz-linear-gradient(left top, rgb(253, 127, 125), rgb(251, 105, 100));
+	background-image: -o-linear-gradient(left top, rgb(253, 127, 125), rgb(251, 105, 100));
+	background-image: -ms-linear-gradient(left top, rgb(253, 127, 125), rgb(251, 105, 100));
+	background-image: linear-gradient(left top, rgb(253, 127, 125), rgb(251, 105, 100));
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,StartColorStr='#fd7f7d', EndColorStr='#fb6964');
+}
+.main.secondary {
+	height: 84px;
+}
+.main ul.main-devices {
+	position: relative;
+	margin-bottom: 115px;
+}
+
+.device h1 {
+
+	text-align: center;
+	color: #777;
+	margin-top: 25%;
+	margin-left: auto;
+	margin-right: auto;
+	font: 47px/47px OswaldBook;
+	letter-spacing: 2px;
+}
+.benefits {
+	position: absolute;
+	z-index: 999;
+	width: 76%;
+	left: 0;
+	margin-left: 12%;
+	margin-right: 12%;
+	font: 22px OswaldBook;
+	letter-spacing: 2px;
+	margin-top: -60px;
+}
+.benefits li {
+	display: inline-block;
+	text-align: center;
+	float: left;
+	width: 33.3%;
+	color: #fdc6c4;
+	line-height: 20px;
+}
+.main li.imac {
+	width: 36%;
+	margin: 108px auto 80px;
+}
+.main li.iPad {
+	width: 15%;
+	position: absolute;
+	left: 22%;
+	top: 36%;
+}
+.main li.iPhone {
+	width: 5%;
+	position: absolute;
+	top: 64%;
+	right: 30%;
+}
+.main .buttons {
+	background-color: #ffffff;
+}
+.main .buttons p {
+	font-size: 24px;
+	text-align: center;
+	line-height: 33px;
+	padding: 30px 20px 0;
+}
+.main .buttons p strong {
+	font: 20px OswaldBold;
+}
+.main .buttons ul {
+	height: 50px;
+	width: 52.5%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 34px;
+	background-color: #ffffff;
+	padding-top: 35px;
+}
+.main .buttons li {
+	width: 45%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	margin-left: 3.6%;
+	text-align: center;
+	color: #6b7b83;
+	letter-spacing: 3px;
+	font: 17px/50px OswaldBook;
+}
+/*.main .buttons li.share {
+	background-color: #e6ecf0;
+}
+.main .buttons li.download {
+	background-color: #e6ecf0;
+}*/
+.main .buttons li a {
+	color: #6b7b83;
+	width: 100%;
+	height: 100%;
+	background-color: #e6ecf0;
+	
+	display: block;
+	
+	-webkit-transition: all .2s ease-in-out;
+}
+.main .buttons li a:hover {
+	color: #fff;
+	background-color: #87c3da;
+}
+
+.sub {
+	padding-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 20px;
+	width: 103.3%;
+	clear: both;
+}
+.sub li.sub-info {
+	display: inline-block;
+	position: relative;
+	width: auto;
+	height: 100%;
+	margin-bottom: 25px;
+	margin-right: 1.7%;
+	float: left;
+}
+
+.screen div {
+	position: absolute;
+	top: 5%;
+	right: 6%;
+	left: 4%;
+	bottom: 57%;
+	border: 1px solid #fe7d74;
+}
+.screen-left ul {
+	position: absolute;
+	top: 48%;
+	right: 2%;
+	left: 4%;
+	bottom: 21%;
+}
+
+.screen-right ul {
+	position: absolute;
+	top: 48%;
+	right: 2%;
+	left: 4%;
+	bottom: 21%;
+}
+
+.screen li {
+	height: 100%;
+	float: left;
+	display: inline-block;
+	margin-right: 3%;
+	border: 1px solid #fe7d74;
+	width: 29.6%;
+}
+
+.imac .screen {background-color: #ff7e7a;}
+.macbook .screen {background-color: #d3e272;}
+.iPad .screen {background-color: #c97c98;}
+.mini .screen {background-color: #98cce0;}
+.iPhone .screen {background-color: #fee489;}
+
+.sub  .image.macbook {padding: 0px;}
+.sub  .image.iPad {}
+
+.sub .image {
+	position: relative;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+.sub  .image.macbook .device {
+	width: 88%;
+	margin: 0 auto;
+	margin-bottom: 0%;
+	margin-top: 0%;
+}
+.sub  .image {
+	padding-bottom: 75%;
+}
+.sub  .image .device {
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+.sub  .image.iPad .device {
+	width: 37%;
+	top: 19%;
+}
+.sub  .image.mini .device {
+	width: 29%;
+	top: 24%;
+}
+.sub  .image.iPhone .device {
+	width: 17%;
+	top: 30%;
+}
+.sub  .image img {width: 100%;}
+
+.sub .text {
+	background-color: #ffffff;
+	padding: 20px;
+	font-size: 16px;
+	line-height: 23px;
+	height: 320px;
+}
+.sub .text h2 {
+	text-align: center;
+	padding-bottom: 10px;
+	font: 22px OswaldBook;
+	letter-spacing: 1px;
+}
+.sub .text p {color: #6b7b83;}
+
+.sub .text.laptop h2 {color: #ccdd5d;}
+.sub .text.tablet h2 {color: #c97c98;}
+.sub .text.mini h2 {color: #88c4da;}
+.sub .text.mobile h2 {color: #fedd6d;}
+
+
+/*  About Me  */
+
+.about {
+	background-color: #fff;
+}
+.about section {
+	text-align: center;
+	margin-bottom: 20px;
+	padding: 100px 50px;
+	height: 600px;
+}
+.about section .photo {
+	width: 50px;
+	height: 50px;
+	margin: auto;
+	border-radius: 50px;
+	padding: 3px;
+	position: relative;
+}
+.about section .photo:after {
+	content: '';
+	width: 50px;
+	height: 50px;
+	background-size: 50px 50px;
+	background-image: url(../img/rob.png);
+	position: absolute;
+	top: 3px;
+	left: 3px;
+}
+.about section article h2 {
+	font: 30px/30px OswaldBook;
+	padding-top: 30px;
+}
+.about section article h2.contact {
+	margin-top: 40px;
+}
+.about section article h3 {
+	font-size: 12px;
+	line-height: 12px;
+	padding-top: 30px;
+	padding-bottom: 25px;
+}
+.about section article h3 span {
+	margin-left: 5px;
+	margin-right: 8px;
+}
+.about section article p {
+	font-size: 18px;
+	line-height: 32px;
+}
+.about section article a {
+	color: #98cce0;
+	-webkit-transition: all .2s ease-in-out;
+}
+.about section article a:hover {
+	color: #c97c98;
+}
+
+
+.clear-fix {clear: both;}
+
+.footer {
+	height: 250px;
+	background-color: #243640;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+}
+.footer a.logo {
+	display: block;
+	width: 46px;
+	height: 50px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -15px;
+	bottom: 0;
+	
+	background-size: 224px 114px;
+	background: url(../img/logo.png) no-repeat -135px -64px;
+	margin: auto;
+}
+.footer a.logo:hover {
+	background: url(../img/logo.png) no-repeat -90px -64px;
+}
+.footer p {
+	text-align: center;
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	color: #a6b3ba;
+	text-transform: uppercase;
+}
+
+
+@media only screen and (max-width: 1204px) {
+	.sub .text {height: 380px;}
+	.sub li.sub-info {width: 47%;}
+	.module, .module2{width: 100%}
+}
+
+
+@media only screen and (max-width: 900px) {
+
+.main li.iPad {
+	width: 16%;
+	position: absolute;
+	left: 22%;
+	top: 38%;
+}
+.main li.iPhone {
+	width: 6%;
+	position: absolute;
+	right: 28%;
+	top: 63%;
+}
+.benefits {font: 23px OswaldBook;}
+
+.main .buttons p {font-size: 20px;}
+.main .buttons p strong {font-size: 16px;}
+
+.main .buttons ul {
+	width: 80%;
+}
+.main .buttons li {
+	margin-left: 3.7%;
+}
+.sub {
+	width: 100%;
+}
+.sub li.sub-info {
+	width: 45.3%;
+	margin-right: 3%;
+}
+.sub  .image {
+	padding-bottom: 61%;
+}
+.sub  .image.macbook .device {width: 66%;}
+.sub  .image.iPad .device {width: 31%;}
+.sub  .image.mini .device {width: 23%;}
+.sub  .image.iPhone .device {width: 13%;}
+.sub .text {
+	height: 270px;
+	font-size: 18px;
+	line-height: 27px;
+}
+}
+
+@media only screen and (max-width: 780px) {
+
+header {
+	background-color: #2980b9;
+/*	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(253, 119, 113)), to(rgb(251, 105, 100)));
+	background-image: -webkit-linear-gradient(top, rgb(253, 119, 113), rgb(251, 105, 100));
+	background-image: -moz-linear-gradient(top, rgb(253, 119, 113), rgb(251, 105, 100));
+	background-image: -o-linear-gradient(top, rgb(253, 119, 113), rgb(251, 105, 100));
+	background-image: -ms-linear-gradient(top, rgb(253, 119, 113), rgb(251, 105, 100));
+	background-image: linear-gradient(top, rgb(253, 119, 113), rgb(251, 105, 100));
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#fd7771', EndColorStr='#fb6964');
+	*/
+	border-bottom: 2px solid #e90d02;
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), inset 0 -1px 0 #ff7970;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), inset 0 -1px 0 #ff7970;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), inset 0 -1px 0 #ff7970;
+}
+.main {margin-top: 60px;}
+.main.secondary {height: 0;padding: 0;}
+.main h1 {display: none;}
+.benefits {font: 20px OswaldBook;}
+.main li.imac {margin: 65px auto;}
+.main li.iPad {top: 38%;}
+.main li.iPhone {top: 62%;}
+.sub .text {height: 290px;}
+.footer {
+	position: relative;
+	bottom: -1px;
+	left: -20px;
+	z-index:0;
+	width: 107%;
+}
+
+}
+
+@media only screen and (max-width: 730px) {
+	.sub .text {height: 320px;}
+	
+}
+@media only screen and (max-width: 700px) {
+	.sub .text {height: 360px;}
+}
+
+@media only screen and (max-width: 640px) {
+
+	.sub li.sub-info {width: 47%;}
+
+
+.content ul.responsive {padding: 0;}
+.main {
+	margin-top: 60px;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #ffffff 0%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#ffffff), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  #ffffff 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  #ffffff 0%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  #ffffff 0%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(135deg,  #ffffff 0%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.main .main-devices {
+	margin-top: -10px;
+}
+.main li.imac {
+	width: 66%;
+	margin: 50px auto;
+}
+.main li.iPad {
+	width: 23%;
+	top: 45%;
+	left: 10%;
+}
+.main li.iPhone {
+	width: 9%;
+	top: 63%;
+	right: 13%;
+}
+.benefits {
+	position: relative;
+	font: 22px OswaldBook;
+	letter-spacing: 2px;
+	margin: -75px 0 0;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+	background-color: #fd7f7d;
+	background-image: -webkit-gradient(linear, left top, right bottom, from(rgb(253, 127, 125)), to(rgb(251, 105, 100)));
+	background-image: -webkit-linear-gradient(left top, rgb(253, 127, 125), rgb(251, 105, 100));
+	background-image: -moz-linear-gradient(left top, rgb(253, 127, 125), rgb(251, 105, 100));
+	background-image: -o-linear-gradient(left top, rgb(253, 127, 125), rgb(251, 105, 100));
+	background-image: -ms-linear-gradient(left top, rgb(253, 127, 125), rgb(251, 105, 100));
+	background-image: linear-gradient(left top, rgb(253, 127, 125), rgb(251, 105, 100));
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,StartColorStr='#fd7f7d', EndColorStr='#fb6964');
+	
+}
+.benefits li {
+	display: block;
+	text-align: center;
+	float: none;
+	width: 100%;
+	line-height: 38px;
+	color: #ffffff;
+}
+.main .buttons p {font-size: 24px;}
+.main .buttons p strong {font-size: 20px;}
+.main .buttons ul {width: 96%;
+	padding-top: 25px;
+}
+.main .buttons li {font-size: 15px;}
+
+.sub {
+	padding-bottom: 0;
+	padding-top: 0;
+	width: 100%;
+}
+.sub li.sub-info {
+	display: block;
+	background-color: #fff;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	width: 100%;
+	position: relative;
+	left: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+	float: none;
+	
+}
+
+.sub li.sub-info ul {padding: 0 ;}
+.sub .text {height: auto;padding: 0 40px;}
+.sub .text h2 {
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 60px;
+}
+.sub .text p {
+	font-size: 20px;
+	line-height: 30px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 60px;
+}
+.sub li:last-child .text p {
+	border-bottom: none;
+	padding-bottom: 120px;
+}
+
+.sub  .image.macbook,
+.sub  .image.iPad,
+.sub  .image.mini,
+.sub  .image.iPhone 
+{background-color: #fff;}
+
+.sub  .image.macbook {position: relative;}
+
+.sub  .image.macbook .device {
+	width: 64%;
+	margin-top: 30px;
+}
+.sub  .image {padding-bottom: 50%;}
+.sub  .image.iPad .device {width: 26%;}
+.sub  .image.mini .device {width: 18%;}
+.sub  .image.iPhone .device {
+	width: 10%;
+	margin-top: 15%;
+}
+.sub  .image.macbook {
+	margin-bottom: 3%;
+}
+.sub  .image.iPad {
+	margin-bottom: 3%;
+}
+.sub  .image.iPhone {
+	margin-top: -18%;
+	background-color: transparent;
+	margin-bottom: 11%;
+}
+.about section {margin-bottom: 0;height: 300px;}
+
+.footer {
+	width: 100%;
+	position: relative;
+	bottom: -1px;
+	left: 0;
+	right: 0;
+	z-index:0;
+}
+
+.module, .module2{height: auto; margin-bottom: 10px;}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) { 
+
+	.sub li.sub-info {width: 100%;}	
+	.module, .module2{width: 100%;}
+	.sub .text {height: auto;padding: 0 20px;}
+	header h1{
+		font-size: 20px;
+		padding-left: 2%;
+	}
+
+	.top-header{
+		height: 30px;
+	}
+
+	nav{
+		right: 2%;
+	}
+
+	nav li a{
+    font-size: 12px;
+    color: #ffffff;
+    padding: 20px 0px 14px;
+    display: block;
+    height: 0px;
+    margin: 5px;
+    border-radius: 4px;
+	}
+
+	.sub-info ul iframe {
+		width: 100%;
+	}
+
+
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px){
+		header h1{
+		font-size: 20px;
+		padding-left: 2%;
+	}
+
+	.top-header{
+		height: 30px;
+	}
+
+	nav{
+		right: 2%;
+	}
+
+	nav li a{
+    font-size: 12px;
+    color: #ffffff;
+    padding: 5px 0px 14px;
+    display: block;
+    height: 0px;
+    margin: 20px;
+    border-radius: 4px;
+	}
+
+		.sub-info ul iframe {
+		width: 500px;
+		height: 350px;
+	}
+
+}

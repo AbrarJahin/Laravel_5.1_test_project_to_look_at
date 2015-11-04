@@ -1,0 +1,23 @@
+/*--------RETINA GRAPHICS---------*/
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) 
+{ 
+	nav li a.logo {
+		background: url(../img/logo@2x.png) no-repeat -135px -64px;
+		background-size: 224px 114px!important;
+	}
+	.footer a.logo {
+		background: url(../img/logo@2x.png) -135px -64px;
+		background-size: 224px 114px!important;
+	}
+	.footer a.logo:hover {
+		background: url(../img/logo@2x.png) -90px -64px;
+	}
+	
+}
