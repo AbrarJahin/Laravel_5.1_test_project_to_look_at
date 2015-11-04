@@ -1,6 +1,6 @@
-## GTW Hero
+## Test Project
 
-A Webinar platform for KV Social.
+
 
 ## Documentation
 
